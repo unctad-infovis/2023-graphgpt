@@ -197,16 +197,7 @@ function ScatterChart({
                 fontSize: '26px',
                 lineHeight: '30px'
               }
-            },
-            yAxis: [{
-              title: {
-                text: null
-              }
-            }, {
-              title: {
-                text: null
-              }
-            }]
+            }
           },
           condition: {
             maxWidth: 500
