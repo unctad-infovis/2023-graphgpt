@@ -82,9 +82,9 @@ function App() {
         data={dataFigure}
         note="Dotted lines represent averages"
         source="UNCTAD based on data from ITU and M-Lab."
-        subtitle="TODO, explain data and year"
+        subtitle="Mean download internet speed versus share of skilled workers of total working population"
         suffix=""
-        title="Which countries may be better positioned to benefit from the diffusion of AI technologies?"
+        title="Low-income countries struggle to position themselves to make use of AI technologies"
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>

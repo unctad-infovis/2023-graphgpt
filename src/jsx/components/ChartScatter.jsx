@@ -239,8 +239,8 @@ function ScatterChart({
       },
       title: {
         align: 'left',
-        margin: 40,
-        widthAdjust: -160,
+        margin: 10,
+        widthAdjust: -144,
         style: {
           color: '#000',
           fontSize: '30px',
@@ -261,7 +261,7 @@ function ScatterChart({
         useHTML: true,
         formatter() {
           // eslint-disable-next-line react/no-this-in-sfc
-          return `<div class="tooltip_container"><div class="tooltip_header">${this.key}</div><div><span class="tooltip_label">Average download speed</span> <span class="tooltip_value">${roundNr(this.y, 0).toLocaleString('en-US')} Mbps</span></div><div><span class="tooltip_label">Share of skilled workers</span> <span class="tooltip_value">${roundNr(this.x, 0).toLocaleString('en-US')}%</span></div></div>`;
+          return `<div class="tooltip_container"><div class="tooltip_header">${this.key}</div><div><span class="tooltip_label">Mean download speed</span> <span class="tooltip_value">${roundNr(this.x, 0).toLocaleString('en-US')} Mbps</span></div><div><span class="tooltip_label">Share of skilled workers</span> <span class="tooltip_value">${roundNr(this.y, 0).toLocaleString('en-US')}%</span></div></div>`;
         },
       },
       xAxis: {
@@ -301,7 +301,7 @@ function ScatterChart({
             fontSize: '16px',
             fontWeight: 400
           },
-          text: 'Share of skilled workers (as percentage of total working population)'
+          text: 'Mean download speed, Mbps'
         }
       },
       yAxis: [{
@@ -340,7 +340,7 @@ function ScatterChart({
             fontSize: '16px',
             fontWeight: 400
           },
-          text: 'Average download speed (Mbps)',
+          text: 'Share of skilled workers, %',
         },
         type: 'linear'
       }]
