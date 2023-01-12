@@ -309,6 +309,10 @@ function ScatterChart({
         gridLineColor: 'rgba(124, 112, 103, 0.2)',
         gridLineDashStyle: 'shortdot',
         gridLineWidth: 1,
+        crosshair: {
+          color: '#ccc',
+          width: 1
+        },
         labels: {
           reserveSpace: true,
           style: {
