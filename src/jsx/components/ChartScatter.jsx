@@ -196,8 +196,7 @@ function ScatterChart({
               style: {
                 fontSize: '26px',
                 lineHeight: '30px'
-              },
-              text: 'If the global plastics trade were a country'
+              }
             },
             yAxis: [{
               title: {
