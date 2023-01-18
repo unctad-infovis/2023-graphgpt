@@ -84,7 +84,7 @@ function App() {
         source="UNCTAD based on data from ITU and M-Lab."
         subtitle="Mean download internet speed versus share of skilled workers of total working population"
         suffix=""
-        title="Low-income countries struggle to position themselves to make use of AI technologies"
+        title="Low-income countries are less prepared to benefit from AI"
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>
