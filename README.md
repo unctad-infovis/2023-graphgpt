@@ -2,6 +2,9 @@
 
 **Live demo** https://unctad-infovis.github.io/2023-graphgpt/
 
+# Used in
+* [How artificial intelligence chatbots could affect jobs](https://unctad.org/news/how-artificial-intelligence-chatbots-could-affect-jobs)
+
 ## Rights of usage
 
 Contact Teemo Tebest.
