@@ -2,8 +2,7 @@ const formatNr = (x, separator = ',', unit = '', prefix = '', addComma = false, 
   let extra = '';
   if (addPlus === true && x > 0) {
     extra = '+';
-  }
-  else if (addPlus === true && x === 0) {
+  } else if (addPlus === true && x === 0) {
     extra = '±';
   }
   if (x < 0) {
@@ -14,5 +13,5 @@ const formatNr = (x, separator = ',', unit = '', prefix = '', addComma = false, 
     x += '.0';
   }
   return x === '' ? 0 : extra + prefix + x + unit;
-}
+};
 export default formatNr;
