@@ -38,13 +38,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.11",
     "webpack": "^5.73.0",
     "webpack-cli": "^7.2.2",
-    "webpack-dev-server": "^6.0.0",
-    "terser-webpack-plugin": "^5.3.11"
+    "webpack-dev-server": "^6.0.0"
   },
   "dependencies": {
-    "highcharts": "^10.3.2",
+    "highcharts": "^11.4.9",
     "intersection-observer": "^0.12.2",
     "react-is-visible": "^1.2.0"
   }
